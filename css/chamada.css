@@ -1,0 +1,39 @@
+
+.chamada__titulo {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 6rem;
+    margin-bottom: .5rem;
+    
+}
+
+.chamada__texto {
+    color: #fff;
+    font-size: 1.4rem;
+    background-color: #00161C;
+    line-height: normal;
+    padding: 5px;
+    margin: 0 auto 2.5rem;
+}
+
+.chamada__botao {
+    width: 100%;
+}
+
+.chamada {
+    background-image: url('../img/fake-news-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+}
