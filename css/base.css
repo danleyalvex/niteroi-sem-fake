@@ -98,7 +98,7 @@ form .assinar {
 }
 
 .chamada__formulário {
-    background-image:linear-gradient(360deg, #141414 , rgba(96, 84, 84, 0) 100%), url('/img/fake-news-banner.jpg');
+    background-image:linear-gradient(360deg, #141414 , rgba(96, 84, 84, 0) 100%), url('../img/fake-news-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
