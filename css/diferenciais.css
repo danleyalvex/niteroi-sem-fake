@@ -49,8 +49,12 @@
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
-
+  
     margin-bottom: 1.25rem;
+}
+
+div {
+    margin-top: 10rem;
 }
 
 .diferenciais__texto {

@@ -1,136 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início | Niterói Sem Fake</title>
-    <!-- <link rel="shortcut icon" href=""> ADICIONAR ICONE-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
         <link href="css/reset.css" rel="stylesheet">
         <link rel="shortcut icon" href="img/logo-icone.png">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/boatos.css">
         <link rel="stylesheet" href="css/cabecalho.css">
-        <link rel="stylesheet" href="css/chamada.css">
+        <link rel="stylesheet" href="css/prevencao.css">
         <link rel="stylesheet" href="css/diferenciais.css">
         <link rel="stylesheet" href="css/botoes.css">
 
 </head>
     <body>
         <header class="cabecalho container">
-            <img src="img/logo-niteroi1.png" alt="Logo niteroi sem fake" class="cabecalho__logo">
+            <a href="index.html"><img src="img/logo-niteroi1.png" alt="Logo niteroi sem fake" class="cabecalho__logo"></a>
             <nav class="cabecalho__navegacao">
                 <ul>
                     <li class="cabecalho__link"><a href="#">Início</a></li>
-                    <li class="cabecalho__link"><a href="#">Sobre</a></li>
-                    <li class="cabecalho__link"><a href="#">Boatos</a></li>
-                    <li class="cabecalho__link"><a href="#">Destaques</a></li>
-                    <li class="cabecalho__link"><a href="#">Política</a></li>
-                    <li class="cabecalho__link"><a href="#">Contato</a></li>
+                    <li class="cabecalho__link"><a href="sobre.html">Sobre</a></li>
+                    <li class="cabecalho__link"><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </header>
-
-      
-
         <main>
-
-              <!-- CHAMADA DA PAGINA -->
-              
-            <section class="chamada container">
-                    <h1 class="chamada__titulo">Como Combater Fake news?</h1>
-                    <p class="chamada__texto">Veja dicas de especialistas de como não disseminar mentiras.</p>
-                    <a href="#" class="chamada__botao botao">Saiba  Como</a>
+              <!-- CHAMADA DA PAGINA NEWSLETTER -->
+            <section class="chamada__formulário container formulario">
+                <div class="teste">
+                    <h1 class="formulario__titulo">Assine Nossa Newsletter</h1>
+                </div>
+                     <p class="formulario__texto">Receba as últimas verificações do<br> <span>Niterói Sem Fake.</span> </p>
+                    <form action="">
+                        <label for="name">Nome</label>
+                        <input type="text" value="" name="nome" class="input" placeholder="Seu nome">
+                        <label for="email">E-mail</label>
+                        <input type="email" value="" name="" class="input" placeholder="Seu e-mail">
+                        <input type="submit" class="assinar" name="assinar" value="Assinar Newsletter">
+                    </form>
             </section>
-
-
-
-            <section class="boatos container">
-                <h2 class="boatos__titulo">Boatos</h2>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/globo-fake-news.jpg" alt="painel noticia Paulo Guedes gastou R$ 120 mil com Viagra?" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Paulo Guedes gastou R$ 120 mil com Viagra?</figcaption>
-                    </figure>
-                </a>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/peixe.jpg" alt="" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Peixe com focinho de porco capturado em Niterói! Fake?</figcaption>
-                    </figure>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/homem-sereia.jpg" alt="" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Tritão é encontrado na Polônia! Verdade?</figcaption>
-                    </figure>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/peixe.jpg" alt="" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Peixe com focinho de porco capturado em Niterói! Fake?</figcaption>
-                    </figure>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/homem-sereia.jpg" alt="" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Tritão é encontrado na Polônia! Verdade?</figcaption>
-                    </figure>
-                </a><a href="#" class="boatos__painel-botao botao">Ver Mais</a>
-
-            </section>
-            
-            <!-- SEÇÃO SOBRE O PROJETO -->
-
-            <section class="diferenciais container">
-                <h1 class="diferenciais__titulo">Nossos princípios orientadores</h1>
-                <p class="diferenciais__texto">O Projeto Niterói sem fake é uma iniciativa sem fins lucrativos que visa reunir o público niteroiense para descobrir e investigar informações suspeitas sobre políticas públicas, eleições municipais e a pandemia de covid-19 que foram compartilhadas nas redes sociais, veículos públicos ou por aplicativos de mensagens.</p>
-                <ul class="diferenciais__lista">
-                    <li class="diferenciais__item">
-                        <h2 class="item__titulo">Integridade e imparcialidade</h2>
-                        <p class="item__texto">Contextualizamos e explicamos as informações baseadas apenas em evidências comprováveis.</p>
-                    </li>
-                    <li class="diferenciais__item">
-                        <h2 class="item__titulo">Transparência</h2>
-                        <p class="item__texto">Monitoramos fontes que compartilham conteúdos sobre políticas públicas ou rumores em todas as plataformas sociais.</p>
-                    </li>
-                    <li class="diferenciais__item">
-                        <h2 class="item__titulo">Ética</h2>
-                        <p class="item__texto">Investigamos e informamos os leitores de maneira precisa, sempre a respeito dos temas que são de interesse da cidade de niterói.</p>
-                    </li>
-                </ul><br>
-            </section>
-
-            <!-- SEÇÃO DESTAQUES == ALTERAR CLASSES PARA DESTAQUES -->
-            
-            <section class="boatos container">
-                <h2 class="boatos__titulo">Destaques</h2>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/globo-fake-news.jpg" alt="painel noticia Paulo Guedes gastou R$ 120 mil com Viagra?" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Paulo Guedes gastou R$ 120 mil com Viagra?</figcaption>
-                    </figure>
-                </a>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/peixe.jpg" alt="" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Peixe com focinho de porco capturado em Niterói! Fake?</figcaption>
-                    </figure>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/homem-sereia.jpg" alt="" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Tritão é encontrado na Polônia! Verdade?</figcaption>
-                    </figure>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/peixe.jpg" alt="" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Peixe com focinho de porco capturado em Niterói! Fake?</figcaption>
-                    </figure>
-                <a href="#">
-                    <figure class="boatos__painel">
-                        <img src="img/homem-sereia.jpg" alt="" class="boatos__painel-imagem">
-                        <figcaption class="boatos__painel-texto">Tritão é encontrado na Polônia! Verdade?</figcaption>
-                    </figure>
-                </a><a href="#" class="boatos__painel-botao botao">Ver Mais</a>
-
+            <section class="prevencao__titulo--container  container">
+                <h2 class="prevencoes__titulo">Prevenção</h2>
+                <article class="prevencao container">
+                    <h1 class="prevencao__titulo">Como Combater Fake news?</h1>
+                    <p class="prevencao__texto">Veja dicas de especialistas de como não disseminar mentiras.</p>
+                    <a href="prevencao.html" class="prevencao__botao botao">Saiba  Mais</a>
+                </article>
             </section>
         </main>
     </body>
