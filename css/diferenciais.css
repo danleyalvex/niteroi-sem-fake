@@ -4,6 +4,9 @@
     background-color: #09076713;
     
 }
+.teste {
+    padding-top: 2rem;
+}
 
 .diferenciais__lista {
     display: flex;
@@ -16,7 +19,6 @@
 
 .diferenciais__item {
     max-width: 350px;
-
     box-sizing: border-box;
 
 }
@@ -53,7 +55,7 @@
     margin-bottom: 1.25rem;
 }
 
-div {
+.diferenciais-conteudo {
     margin-top: 10rem;
 }
 
@@ -62,5 +64,13 @@ div {
     padding: .5rem;
     line-height: normal;
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width:768px) {
+    .diferenciais__lista{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
 }

@@ -1,46 +1,76 @@
+.diferenciais {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    background-color: #09076713;
+    
+}
+.teste {
+    padding-top: 7rem;
+}
 
-
-.botao {
+.diferenciais__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color:#ffffff;
-    background-color: #2e1fa0f2;
-    display: block;
-    width: 100%;
-    max-width: 300px;
-    box-sizing: border-box;
-    font-weight: 700;
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #00000063;
-    transition: .4s ease-in-out;
-    border: none;
     
 }
 
-.botao:hover {
-    transition: .5s ease-in-out;
-    color: rgb(13, 13, 13);
-    background:linear-gradient(130deg,rgba(46, 9, 180, 0.486) , rgba(240, 125, 42, 0.403));
-}
-
-.botao__alternativo {
-    text-align: center;
-    color:#ffffff;
-    background-color: #000000dc;
-    display: block;
-    width: 100%;
-    max-width: 300px;
+.diferenciais__item {
+    max-width: 350px;
     box-sizing: border-box;
-    font-weight: 700;
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #00000063;
-    transition: .4s ease-in-out;
-    border: none;
+
 }
 
-.botao__alternativo:hover {
-    transition: .5s ease-in-out;
-    color: rgb(124, 124, 124);
-    background:linear-gradient(130deg,rgba(176, 176, 176, 0.486) , rgba(98, 98, 98, 0.403));
+.item__titulo {
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.item__texto {
+    line-height: normal;
+    background-color: #00000027;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.diferenciais__botao {
+    margin: 0 auto;
+}
+
+
+.diferenciais__titulo {
+    color: #060606af;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  
+    margin-bottom: 1.25rem;
+}
+
+.diferenciais-conteudo {
+    margin-top: 10rem;
+}
+
+.diferenciais__texto {
+    font-size: 1.2rem;
+    padding: .5rem;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width:768px) {
+    .diferenciais__lista{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
 }
