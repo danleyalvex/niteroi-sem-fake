@@ -16,6 +16,14 @@
     text-align: center;
     
 }
+.diferenciais__lista-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
 
 .diferenciais__item {
     max-width: 350px;
@@ -120,4 +128,5 @@ ul {
         flex-direction: row;
         gap: 1rem;
     }
+    
 }
