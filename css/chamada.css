@@ -23,17 +23,3 @@
     width: 100%;
 }
 
-.chamada {
-    background-image: url('../img/fake-news-banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    
-}

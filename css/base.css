@@ -1,6 +1,19 @@
+@import url('cabecalho.css');
+@import url('sobre.css');
+
+:root {
+    --cor-primaria: #343a40;
+    --cor-secundaria:#212529;
+    --cor-terciaria: #e85d04;
+    --cor-auxiliar: #e9ecef;
+    --font-principal: 'Open Sans';
+    --font-auxiliar: 
+}
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-principal);
+    background-color: var(--cor-secundaria);
+    color: #fff;
 }
 
 .container {
@@ -93,7 +106,7 @@ form .assinar {
 } 
 
 .chamada__formulário {
-    background-image:linear-gradient(360deg, #141414 , rgba(96, 84, 84, 0) 100%), url('../img/fake-news-banner.jpg');
+    background-image:linear-gradient(360deg, #212529 , rgba(255, 0, 0, 0) 100%), url('../img/fake-news-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -119,11 +132,7 @@ form .assinar {
     text-transform: uppercase;
     
 }
-.teste {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.238);
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-}
+
 
 .formulario__texto {
     font-size: 1.1rem;
