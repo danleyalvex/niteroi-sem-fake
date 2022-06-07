@@ -1,8 +1,6 @@
 .diferenciais {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
-    border-bottom: 1px ridge var(--cor-terciaria);
-    border-width: 40px;
 }
 
 .diferenciais__lista {
@@ -22,6 +20,7 @@
     
 }
 
+
 .diferenciais__item {
     max-width: 350px;
     box-sizing: border-box;
@@ -38,7 +37,7 @@
 
 .item__texto {
     line-height: normal;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     background-color: #00000027;
     border-radius: 5px;
     padding: 1rem;
@@ -62,11 +61,11 @@
 }
 
 .diferenciais__texto {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: .5rem;
     line-height: normal;
     text-align: left;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 /* secao combater */
@@ -76,15 +75,45 @@
 }
 
 .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
     width: 100vw;
-    box-sizing: border-box;
+    max-width:  560px;
+    margin: 0 auto;
+
+   
+}
+
+.lista__combater {
+    padding: 6%;
+    font-size: 1.3rem;
+    
+}
+
+.lista__combater-item {
+    margin-bottom: 1rem;
+    background-color: rgba(245, 245, 220, 0.062);
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 @media screen and (min-width:768px) {
     .diferenciais__lista{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 1rem;
     }
+
+    .content {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
     
 }

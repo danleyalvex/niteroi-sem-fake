@@ -1,0 +1,21 @@
+.verificar__titulo {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.verificar__texto {
+    font-size: 1.4rem;
+    line-height: normal;
+    margin-bottom: 1.6rem;
+}
+
+.content-blockquote{
+    border-left: 3px solid #fff;
+    font-size: 1.2rem;
+    color: rgb(255, 64, 0);
+    padding-left: 1rem;
+    line-height: normal;
+    margin-bottom: 2rem;
+}

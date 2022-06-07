@@ -1,5 +1,6 @@
 @import url('cabecalho.css');
 @import url('sobre.css');
+@import url('verificar.css');
 
 :root {
     --cor-primaria: #343a40;
