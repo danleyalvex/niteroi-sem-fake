@@ -3,7 +3,7 @@
 }
 
 .contato__titulo {
-    color: var(--cor-auxiliar);
+    color: var(--cor-primaria);
     border-radius: 6px;
     font-weight: 700;
     font-size: 1.8rem;
