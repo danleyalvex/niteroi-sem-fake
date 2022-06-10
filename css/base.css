@@ -1,8 +1,9 @@
 @import url('cabecalho.css');
 @import url('sobre.css');
 @import url('verificar.css');
-@import url('contato.css');
+@import url('checagem.css');
 @import url('diferenciais.css');
+@import url('rodape.css');
 
 :root {
     scroll-behavior: smooth;
@@ -215,11 +216,32 @@ label {
     }
 
     .conteudo {
-        width: 50%;
+        width:50vw;
         margin: 0 auto;
     }
 
     .conteudo {
         margin-top: 1rem;
+    }
+
+    .checagem__item {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+        /* height: 30vh; */
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+    }
+
+    .checagem-imagem {
+        margin: 1.4rem;
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    .btn-checagem {
+        width: 30vw;
+        margin: 0 auto;
     }
 }
