@@ -1,5 +1,5 @@
 .sobre {
-    margin-top: 3rem;
+    margin-top: 10rem;
 }
 
 .sobre__titulo {
@@ -53,6 +53,8 @@
 }
 
 .sobre__logo{
-    background-color: rgba(0, 10, 19, 0.247);
+    background-color: rgb(255, 102, 0);
+    padding: .8rem;
+    border-radius: 16px;
     margin-bottom: 3rem;
 }

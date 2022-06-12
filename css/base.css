@@ -138,6 +138,39 @@ form .assinar {
     
 }
 
+.mouse-btn {
+    margin: 3px auto;
+    border-radius: 20px;
+    display: flex;
+  }
+
+  .mouse-btn{
+    margin-top: 3rem;
+    cursor: pointer;
+  }
+  
+  i {
+    color: #000000;
+  }
+
+  .mouse-scroll {
+    display: block;
+    margin: auto;
+    animation: descer 1s linear infinite;
+  }
+  
+  @keyframes descer {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(20px);
+    }
+  }
+
 
 .formulario__texto {
     font-size: 1.1rem;
@@ -206,6 +239,10 @@ label {
     .container {
         width: 70%;
         margin: 0 auto;
+    }
+
+    .diferenciais{
+        margin-top: 6rem;
     }
 
     .diferenciais__lista{
