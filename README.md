@@ -25,6 +25,12 @@ O Niterói sem fake é um projeto independente e sem vieses, uma iniciativa sem 
 
 <!-- Imagens -->
 ## Imagens
+### Responsivo
+![image](https://user-images.githubusercontent.com/85087531/173720427-6dea0568-1b6a-48b7-9eef-f58929a2fc0f.png)
+#
+### Desktop
+![image](https://user-images.githubusercontent.com/85087531/173720291-a9b3f87b-a7ae-4939-8463-d05e0c716120.png)
+
 
 <!-- CONTACT -->
 ## Contato
