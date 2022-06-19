@@ -35,8 +35,6 @@ O Niterói sem fake é um projeto independente e sem vieses, uma iniciativa sem 
 <!-- CONTACT -->
 ## Contato
 
-Danley Alves - [@danleyalvex](https://twitter.com/danleyalvex) - danleyalves@hotmail.com
-
-Link do projeto: [Niteroi-Sem-Fake](https://github.com/danleyalvex/niteroi-sem-fake)
+Danley Alves - [@danleyalvex](https://twitter.com/danpistudio) - danleyalves@hotmail.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
